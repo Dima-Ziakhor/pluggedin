@@ -72,9 +72,11 @@ $link-color: #333333;
   font-family: "Open Sans", Helvetica, sans-serif;
 
   &__container {
-    padding: 20px 35px 12px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 35px 12px;
+    max-width: 1200px;
   }
 
   &__logo-block {

@@ -1,0 +1,17 @@
+.header {
+  background-color: $main-color;
+}
+
+.main {
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__carusel {
+    grid-column: 1 / 4;
+  }
+}

@@ -1,20 +1,31 @@
 <template>
   <div id="app">
-    <Nav/>
+    <header class="header">
+      <Nav/>
+    </header>
+
+    <main class="main">
+      <div class="main__content">
+        <Carusel class="main__carusel"/>
+        <Inspiration/>
+      </div>
+    </main>
   </div>
 </template>
 
 <script>
 import Nav from './components/Nav'
+import Carusel from './components/Carusel'
+import Inspiration from './components/Inspiration'
 
 export default {
   name: 'App',
   components: {
-    Nav
+    Nav,
+    Carusel,
+    Inspiration
   }
 }
 </script>
 
-<style lang="scss">
-  @import './assets/styles/style.scss';
-</style>
+<style lang="scss" src="@/assets/styles/style.scss"></style>
