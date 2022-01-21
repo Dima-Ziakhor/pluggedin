@@ -12,5 +12,6 @@ export default {
 .carusel {
   height: 400px;
   background-color: red;
+  grid-column: 1 / 4;
 }
 </style>

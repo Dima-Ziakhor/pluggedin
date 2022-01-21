@@ -6,8 +6,10 @@
 
     <main class="main">
       <div class="main__content">
-        <Carusel class="main__carusel"/>
+        <Carusel/>
         <Inspiration/>
+        <Room/>
+        <Text/>
       </div>
     </main>
   </div>
@@ -17,13 +19,17 @@
 import Nav from './components/Nav'
 import Carusel from './components/Carusel'
 import Inspiration from './components/Inspiration'
+import Room from './components/Room'
+import Text from './components/Text'
 
 export default {
   name: 'App',
   components: {
     Nav,
     Carusel,
-    Inspiration
+    Inspiration,
+    Room,
+    Text
   }
 }
 </script>
